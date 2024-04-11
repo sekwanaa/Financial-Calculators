@@ -28,4 +28,9 @@
 
 ![image](https://github.com/sekwanaa/Financial-Calculators/assets/112197395/95879137-71ee-4650-be90-5146a4248806)
 
+### Interesting Piece of Code
+`try (Scanner scanner = new Scanner(System.in))`
+
+ This is interesting because I don't need to worry about closing the scanner.
+
 

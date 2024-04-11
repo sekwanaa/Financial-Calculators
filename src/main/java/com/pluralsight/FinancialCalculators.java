@@ -9,6 +9,9 @@ public class FinancialCalculators {
             System.out.println("2. Future Value of One-Time Deposit");
             System.out.println("3. Present Value of Order Annuity");
             int calculator = scanner.nextInt();
+            if (calculator < 1 || calculator > 3) {
+                System.out.println("Please enter a valid choice.");
+            }
 
             switch (calculator) {
                 case 1: //mortgage calculator
