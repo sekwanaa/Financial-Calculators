@@ -18,3 +18,14 @@
 `Calculates the present value of an Order Annuity along with `
 
 ![image](https://github.com/sekwanaa/Financial-Calculators/assets/112197395/5c015788-d0b7-4287-b7e5-a50a7b8735a8)
+
+## Error Handling
+`Different scenarios of error handling`
+
+![image](https://github.com/sekwanaa/Financial-Calculators/assets/112197395/10fe9ae3-77e4-4085-aea9-c96d5306efc0)
+
+![image](https://github.com/sekwanaa/Financial-Calculators/assets/112197395/c6864d1d-842d-4fe1-9183-a67d54678500)
+
+![image](https://github.com/sekwanaa/Financial-Calculators/assets/112197395/95879137-71ee-4650-be90-5146a4248806)
+
+
