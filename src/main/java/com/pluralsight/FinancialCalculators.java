@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class FinancialCalculators {
     public static void main(String[] args) {
         try (Scanner scanner = new Scanner(System.in)) {
-            System.out.println("Choose your calculator");
+            System.out.println("\n\nChoose your calculator");
             System.out.println("1. Mortgage");
             System.out.println("2. Future Value of One-Time Deposit");
             System.out.println("3. Present Value of Order Annuity");
@@ -12,11 +12,12 @@ public class FinancialCalculators {
 
             switch (calculator) {
                 case 1: //mortgage calculator
-                    System.out.println("Loan Amount: ");
+                    System.out.println("\n\nWelcome to the Mortgage calculator!\n\n");
+                    System.out.println("Please enter your loan amount: ");
                     float loanAmount = scanner.nextFloat();
-                    System.out.println("Current Interest Rate per Year: ");
+                    System.out.println("Please enter your current interest rate per year: ");
                     float interestRate = scanner.nextFloat();
-                    System.out.println("Payment Length in Years: ");
+                    System.out.println("Please enter your payment length in years: ");
                     int loanLength = scanner.nextInt();
 
                     int n = loanLength * 12;
@@ -28,6 +29,7 @@ public class FinancialCalculators {
                     break;
 
                 case 2: //future value of one time deposit
+                    System.out.println("\n\nWelcome to the Future Value of a One Time Deposit Calculator!\n\n");
                     System.out.println("Initial Deposit Amount: ");
                     float initialDeposit = scanner.nextFloat();
                     System.out.println("Current Interest Rate: ");
@@ -43,6 +45,7 @@ public class FinancialCalculators {
                     break;
 
                 case 3: //present value of order annuity
+                    System.out.println("\n\nWelcome to the Present Value of an Order Annuity Calculator!\n\n");
                     System.out.println("Expected Monthly Payout: ");
                     float expectedMonthlyPayout = scanner.nextFloat();
                     System.out.println("Expected Interest Rate: ");
